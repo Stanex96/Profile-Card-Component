@@ -1,0 +1,67 @@
+/* BODY */
+body{
+    display: flex;
+    align-items: center;
+    background-image: url(./bg-pattern-bottom.svg);
+    background-repeat: no-repeat;
+    background-color: hsl(185, 75%, 39%);
+}
+/* Sections */
+.profile{
+    background-color: white;
+    border-radius: 15px;
+    height: 500px; width: 400px;
+    display: block; margin: auto;
+    text-align: center; position: relative;
+
+}
+
+.compteur{
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+}
+/* Textes */
+.blacktype{
+    font-size: 20px; font-weight: bold; text-align: center;
+    color: black;
+    display: inline-block;
+}
+
+.blacktype2{
+    font-size: 20px; font-weight: bold;
+    color: black;
+}
+
+.greytype{
+    font-size: 11px; font-weight: bold; text-align: center;
+    color: grey; letter-spacing: 0.2em;
+}
+
+.age{
+    font-size: 19px; font-weight: bold; text-align: center;
+    color: grey;
+    display: inline-block;
+}
+
+.paragraph{
+    align-content: center;
+    margin-top: -18%;
+}
+
+.empty{
+    width: 10px; display: inline-block;
+}
+
+/* Pictures */
+.bg{
+    width: 400px;
+    align-items: center;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.picture{
+    border-radius: 50%;
+    border: 10px solid white;
+    align-self: center; position: relative; bottom: 65px;
+}
